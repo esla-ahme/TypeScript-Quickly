@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "noEmitOnError": true,
     "target": "es5",
     "watch": true
