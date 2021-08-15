@@ -1,15 +1,18 @@
 # Part 1 Chapter 1 : Getting familiar with TypeScript
 
 **Typescript is a superset of javascript** 
+
 ![versions](./images/js-v.png)
 <hr>
 
 **Typical TypeScript workflows**
+
 ![ts-workflow](./images/ts-workflow.png)
-<pre>  and here with js library called lodash 
-  (supporst piplines and many functional programming features)</pre>
+and here with js library called lodash 
+  (supporst piplines and many functional programming features)
 ![ts-workflow](./images/ts-workflow2.png)
 <hr>
+
 ### Code Example
 suppose we created a `main.ts` file containing the following code
 >**Typescript**
@@ -33,7 +36,8 @@ const getFinalPrice = (price: <span style="color:green">Number</span>, discount:
 console.log(getFinalPrice(100, 20));
 </pre>
 <hr>
-###Configuration options
+
+### Configuration options
 there are many configuratio options are provided by tsc (Typescript compiler)
 such as 
 `tsc --t ES5 (or ES6) main ` to generate js cod compatible with ES5 or ES6 also 
