@@ -24,7 +24,9 @@ const getFinalPrice = (price: <span style="color:green">Number</span>, discount:
 console.log(getFinalPrice(100, 20));
 </pre>
 where 
+
 <span style="color:green">Number</span>: is type of parameter 
+
 <span style="color:red">Number</span>: is type of the return value 
 
 in terminal `tsc main.ts`
