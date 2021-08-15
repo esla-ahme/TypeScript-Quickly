@@ -8,6 +8,7 @@
 **Typical TypeScript workflows**
 
 ![ts-workflow](./images/ts-workflow.png)
+
 and here with js library called lodash 
   (supporst piplines and many functional programming features)
 ![ts-workflow](./images/ts-workflow2.png)
