@@ -9,8 +9,8 @@
 
 ![ts-workflow](./images/ts-workflow.png)
 
-<pre>  and here with js library called lodash 
-  (supporst piplines and many functional programming features)</pre>
+and here with js library called lodash 
+  (supporst piplines and many functional programming features)
 ![ts-workflow](./images/ts-workflow2.png)
 <hr>
 
@@ -24,7 +24,9 @@ const getFinalPrice = (price: <span style="color:green">Number</span>, discount:
 console.log(getFinalPrice(100, 20));
 </pre>
 where 
+
 <span style="color:green">Number</span>: is type of parameter 
+
 <span style="color:red">Number</span>: is type of the return value 
 
 in terminal `tsc main.ts`
@@ -38,7 +40,8 @@ const getFinalPrice = (price: <span style="color:green">Number</span>, discount:
 console.log(getFinalPrice(100, 20));
 </pre>
 <hr>
-###Configuration options
+
+### Configuration options
 there are many configuratio options are provided by tsc (Typescript compiler)
 such as 
 `tsc --t ES5 (or ES6) main ` to generate js cod compatible with ES5 or ES6 also 
